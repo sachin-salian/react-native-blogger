@@ -11,10 +11,11 @@ import * as Notifications from "expo-notifications";
 import { UserContext } from "./src/config/Context";
 import { Themes } from "./src/constants/Constants";
 import dataStore from "./src/utils/DataStore";
+import Constants from "expo-constants";
 
 // Initialize Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyBhXxM8jX77IqUQeVxslKuH03h4KBc3YYs",
+  apiKey: Constants.expoConfig.extra.firebaseApiKey,
   projectId: "rn-blogger",
 };
 

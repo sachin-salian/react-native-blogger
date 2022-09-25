@@ -12,6 +12,7 @@ module.exports = function (api) {
     plugins: [
       "react-native-reanimated/plugin",
       "@babel/plugin-proposal-object-rest-spread",
+      "transform-inline-environment-variables",
     ],
   };
 };
